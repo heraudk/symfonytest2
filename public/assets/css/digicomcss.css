@@ -1,3 +1,51 @@
+
+@font-face
+{
+    font-family: "Neon80s";
+    src: url("../font/Neon.ttf") format('truetype');
+}
+
+
+
+body
+{
+background-image:url("../images/fondecran.png");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "Neon80s";
+padding-bottom: 3rem;
+font-size: 23px;
+color: white !important;
+}
+
+
+
+
+.navbar
+{
+    background-color: #ffc90e;
+}
+
+
+.nav-item a
+{
+    background-size: cover;
+    padding: 20px;
+    margin: 2px;
+    background: #f47e0b;
+    border-radius: 8px;
+    color:black;
+}
+
+
+
+font
+{
+  color: #f47e0b;
+}
+
+
+
 .navbar-item-custom, .navbar-item-custom a 
 {
     color: white;
@@ -9,6 +57,76 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: orange;
+    background-color: #f47e0b;
     padding-top: 25px;
 }
+
+.lead
+{
+    margin-left: 2rem;
+}
+
+
+
+.video
+{
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width:400px)
+{
+     img
+         {
+         max-width: 360px;
+         height:auto;
+         }
+     iframe
+     {
+       max-width: 360px;
+       height: 360px;
+     }
+}
+
+@media screen and (min-width:401px) and (max-width:640px)
+{
+
+       img
+        {
+         max-width: 380px;
+         height: auto;
+       }
+       iframe
+     {
+       max-width: 380px;
+       height: 380px;
+     }
+}
+
+@media screen and (min-width:641px) and (max-width:1200px)
+{
+
+       img
+        {
+         max-width: 100%;
+         height: auto;
+       }
+       iframe
+     {
+       max-width: 100%;
+       height: 380px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
